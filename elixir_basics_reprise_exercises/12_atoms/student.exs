@@ -9,8 +9,6 @@ defmodule Cards do
   def higher?(:jack, :ace), do: false
   def higher?(:jack, :king), do: false
 
-
-
   def higher?(x,y) do
     if x > y do
       true
